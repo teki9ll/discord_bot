@@ -97,7 +97,7 @@ async def on_message(message):
     else:
         await send_message(message, user_message, is_private=False)
 
-TOKEN = "MTE4NDQ3MzE2NDQ0MTQ2ODk4OA.G-aZ-T._ldDnn4wcIqzI0qBg6z-aIHPwgxs4vDBjzpDWA"
+TOKEN = "(Add Your Bot Token Here)"
 
 intents = discord.Intents.default()
 intents.message_content = True
